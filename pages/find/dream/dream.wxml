@@ -1,0 +1,5 @@
+<!--pages/find/dream/dream.wxml-->
+<view class='dream'>
+  <image src="{{menusImgs.img}}"></image>
+  <text class='dream-text'>{{menusImgs.text}}</text>
+</view>

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/find/find",
+    "pages/trip/trip",
+    "pages/index/travelStrategy/travelStrategy",
+    "pages/index/innReservation/innReservation",
+    "pages/index/itinerary/itinerary",
+    "pages/index/storeNavigation/storeNavigation",
+    "pages/find/dream/dream",
+    "pages/find/find-item/find-item",
+    "pages/index/index-detail/index-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "乐妍渔家客栈",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#ec3e79",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "selectedIconPath": "images/111.png",
+        "iconPath": "images/11.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/222.png",
+        "iconPath": "images/22.png",
+        "pagePath": "pages/find/find",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "images/333.png",
+        "iconPath": "images/33.png",
+        "pagePath": "pages/trip/trip",
+        "text": "行程"
+      }
+    ]
+  }
+}

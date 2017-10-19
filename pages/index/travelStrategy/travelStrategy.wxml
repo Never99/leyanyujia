@@ -1,0 +1,29 @@
+<!--pages/index/travelStrategy/travelStrategy.wxml-->
+<view class='travelStrategy'>
+  <text class='travelStrategy-head'>人生的第一次旅行该去哪？</text>
+  <image class='travelStrategy-img' mode='aspectFill' src='http://img5.imgtn.bdimg.com/it/u=1264706374,329716717&fm=27&gp=0.jpg'></image>
+  <view class='travelStrategy-poetry'>
+    <block>
+      <text class='poetry'>山中定有仙，云深不知处。</text>
+      <text class='poetry'>且看风云幻，岂非鬼神才。</text>
+      <text class='poetry'>仙山藏仙境，谦逊无仙踪。</text>
+      <text class='poetry'>倘使一日游，何人念乡还。</text>
+    </block>
+  </view>
+  <image class='travelStrategy-img' src='http://img5.imgtn.bdimg.com/it/u=1611705331,1929120982&fm=27&gp=0.jpg'></image>
+  <view class='travelStrategy-text'>
+    <block>
+      <text class='text'>假日的清晨</text>
+      <text class='text'>在蓬莱海边醒来</text>
+      <text class='text'>略带凉意的晨风</text>
+      <text class='text'>空气中流淌着安静的因子</text>
+    </block>
+  </view>
+  <image class='travelStrategy-img' src='http://img3.imgtn.bdimg.com/it/u=243771259,1981356416&fm=11&gp=0.jpg'></image>
+  <view class='travelStrategy-text'>
+    <block>
+      <text class='text'>假日的清晨</text>
+      <text class='text'>在蓬莱海边醒来</text>
+    </block>
+  </view>
+</view>

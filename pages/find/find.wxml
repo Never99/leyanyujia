@@ -1,0 +1,53 @@
+<!--logs.wxml-->
+<import src="find-item/find-item.wxml" />
+<view class="find">
+  <swiper class='swiperbox' indicator-dots="{{indicatorDots}}" circular='{{circular}}' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{findImgUrls}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode='aspectFill' />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <block wx:for="{{menusImgs}}" wx:for-item="item" wx:for-index="idx" wx:key="*this">
+    <!--//template-->
+    <view catchtap="onPostTap" data-findId="{{item.id}}">
+      <template is="postItem" data="{{...item}}" />
+    </view>
+  </block>
+
+  <!-- <view class='menus'>
+    <block wx:for="{{menusImgs}}" wx:key="*this">
+      <navigator url='dream/dream'>
+        <view class="menus-boxs" type="div" data-findId='{{index}}'>
+          <view>
+            <image class='menus-img' mode="aspectFill" src="{{item.img}}"></image>
+          </view>
+          <text class="menus-text{{index}}">{{item.text}}</text>
+        </view>
+      </navigator>
+
+    </block>
+  </view> -->
+  <!-- <block>
+      <view class="menus-boxs">
+        <image class='menus-img' src="http://www.baxian.cn/menghuan/images/banner/pic03.jpg"></image>
+        <text class='menus-text0'>欧乐堡梦幻世界</text>
+      </view> 
+    </block>
+
+      <block>
+        <view class="menus-boxs">
+          <image class='menus-img' src="http://www.baxian.cn/images/banner/haiyang/pic03.jpg"></image>
+          <text class='menus-text1'>欧乐堡水上世界</text>
+        </view>
+      </block>
+
+      <block>
+        <view class="menus-boxs">
+          <image class='menus-img' src="http://www.baxian.cn/images/banner/haiyang/pic01.jpg"></image>
+          <text class='menus-text2'>欧乐堡极地世界</text>
+        </view>
+      </block> -->
+
+</view>

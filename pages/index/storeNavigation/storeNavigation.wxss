@@ -1,0 +1,21 @@
+/* pages/index/storeNavigation/storeNavigation.wxss */
+.tecent{
+  font-size: 30rpx;
+  padding-left: 20rpx;
+}
+.address{
+  text-align: center;
+  display: block;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  color: #c0c0c0;
+}
+.pics{
+  margin-top: 30rpx;
+}
+.erweima{
+  display: block;
+  width: 50%;
+  height: 300rpx;
+  margin-left: 25%;
+}

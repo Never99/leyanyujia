@@ -1,0 +1,5 @@
+<!--pages/index/index-detail/index-detail.wxml-->
+<view class='index-detail'>
+  <text class='detail-title'>{{detailItem.titles}}</text>
+  <image class='detail-img' src='{{detailItem.img}}' bindload="imageOnLoad" binderror="imageOnLoadError"></image>
+</view>

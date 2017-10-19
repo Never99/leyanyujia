@@ -1,0 +1,69 @@
+/* pages/index/index.wxss */
+.index{
+   display: flex;
+  flex-direction: column;
+}
+.dl {
+  line-height: 60rpx;
+  float: left;
+   display: flex;
+}
+.menus{
+  flex: 1;
+  margin-top: 20rpx;
+  justify-content: center;
+}
+.swiperbox{
+  width: 100%;
+}
+.slide-image{
+  display: block;
+  width: 100%;
+}
+.icon{
+  position: relative;
+  left: 50%;  
+  margin-left: -30rpx;
+}
+.flex{
+  display: flex;
+}
+.texts {
+  display: block;
+  padding: 6rpx 0;
+  font-size: 30rpx;
+  text-align: center;
+}
+.hotTitle{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 72rpx;
+  margin: 15rpx 0;
+  border-bottom: 2rpx solid #ccc;
+  border-top: 2rpx solid #ccc;
+}
+.imgs{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+}
+.one{
+   width: 46%; 
+   overflow: hidden;
+   margin-left: 2%;
+}
+
+.img{
+  display: block;
+  width: 100%;
+  height: 200rpx;
+}
+.jingqu{
+  display: block;
+  font-size: 30rpx;
+  text-align: center;
+  margin: 20rpx 0;
+}

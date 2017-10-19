@@ -1,0 +1,26 @@
+/* pages/trip/trip.wxss */
+.trip{
+  width: 100%;
+}
+.trip-im {
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.trip-pos{
+  width: 60%;
+  height: 80%;
+  text-align: center;
+  position: absolute;
+  line-height: 180rpx;
+  top: 10%;
+  left: 20%;
+  font-size: 30rpx;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border: 4rpx solid #fff;
+}
+.tripimg{
+  display: block;
+  width: 100%;
+  height: 240rpx;
+}

@@ -1,0 +1,7 @@
+/* pages/find/dream/dream.wxss */
+.dream-text{
+  font-size: 36rpx;
+  line-height: 60rpx;
+  display: block;
+  text-align: center;
+}

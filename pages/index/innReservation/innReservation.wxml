@@ -1,0 +1,70 @@
+<!--pages/index/innReservation/innReservation.wxml-->
+<view class='innReservation'>
+  <view class='innReservation-head'>
+    <!-- <block> -->
+    <views class="innReservation-one">
+      <image class='innReservation-img' mode="aspectFill" src='http://www.baxian.cn/images/banner/pic01.jpg'></image>
+      <text class='innReservation-text'>蓬莱阁</text>
+    </views>
+    <views class="innReservation-one">
+      <image class='innReservation-img' mode="aspectFill" src='http://www.baxian.cn/images/banner/pic01.jpg'></image>
+      <text class='innReservation-text'>蓬莱阁</text>
+    </views>
+    <views class="innReservation-one">
+      <image class='innReservation-img' mode="aspectFill" src='http://www.baxian.cn/images/banner/pic01.jpg'></image>
+      <text class='innReservation-text'>蓬莱阁</text>
+    </views>
+    <views class="innReservation-one">
+      <image class='innReservation-img' mode="aspectFill" src='http://www.baxian.cn/images/banner/pic01.jpg'></image>
+      <text class='innReservation-text'>蓬莱阁</text>
+    </views>
+    <!-- </block> -->
+    <view class='session'>
+      <text class='yuding'>客栈预定</text>
+      <contact-button class='session-button' type="default-dark" size="20" session-from="weapp" open-type="contact"></contact-button>
+    </view>
+  </view>
+
+  <view class='rooms'>
+    <view class='bigroom'>
+      <block>
+        <image class='roompic' src='https://pic.tujia.com/upload/unit/day_160830/thumb/201608300932474852_370_232.jpg'></image>
+      </block>
+      <block>
+        <view class='texts'>
+          <text class='roomtext'>标准大床房</text>
+          <text class='small'>15㎡ | 免费wifi | 独立卫浴 | 有窗</text>
+          <text class='small'>1张双人床或2张单人床</text>
+          <text class='small red'>亲，不要错过近期超低价格！</text>
+        </view>
+
+      </block>
+    </view>
+    <view class='bigroom'>
+      <block>
+        <image class='roompic' src='https://pic.tujia.com/upload/unit/day_170527/thumb/201705271810408237_370_232.jpg'></image>
+      </block>
+      <block>
+        <view class='texts'>
+          <text class='roomtext'>家庭三人间</text>
+          <text class='small'>20㎡ | 免费wifi | 独立卫浴 | 有窗</text>
+          <text class='small'>1张双人床或2张单人床</text>
+          <text class='small red'>亲，不要错过近期超低价格！</text>
+        </view>
+      </block>
+    </view>
+    <view class='bigroom'>
+      <block>
+        <image class='roompic' src='https://pic.tujia.com/upload/landlordunit/day_170406/thumb/201704061627567779_370_232.jpg'></image>
+      </block>
+      <block>
+        <view class='texts'>
+          <text class='roomtext'>家庭四人间</text>
+          <text class='small'>25㎡ | 免费wifi | 独立卫浴 | 有窗</text>
+          <text class='small'>1张双人床或2张单人床</text>
+          <text class='small red'>亲，不要错过近期超低价格！</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

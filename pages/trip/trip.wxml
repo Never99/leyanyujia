@@ -1,0 +1,24 @@
+<!--pages/trip/trip.wxml-->
+<view class='trip'>
+  <block class="dl" wx:for="{{listsMenus}}" wx:key="*this">
+    <view class="trip-im" type="div">
+      <view>
+        <image class='tripimg' mode="aspectFill" src="{{item.img}}"></image>
+      </view>
+      <text class='trip-pos'>{{item.text}}</text>
+    </view>
+  </block>
+
+  <!-- <view class="trip-im">
+    <image class='tripimg' mode="aspectFill" src="../../images/trip/pic08.jpg"></image>
+    <text class='trip-pos'>蓬莱有仙境 醉美三仙山</text>
+  </view>
+  <view class="trip-im">
+    <image class='tripimg' mode="aspectFill" src="../../images/trip/pic07.jpg"></image>
+    <text class='trip-pos'>醉美三仙山</text>
+  </view>
+  <view class="trip-im">
+    <image class='tripimg' mode="aspectFill" src="../../images/trip/pic09.jpg"></image>
+    <text class='trip-pos'>八仙过海 各显神通</text>
+  </view> -->
+</view>

@@ -1,0 +1,11 @@
+<!--pages/find/find-item/find-item.wxml-->
+<template name="postItem">
+  <view class='menus'>
+    <view class="menus-boxs" type="div" data-findId='{{index}}'>
+      <view>
+        <image class='menus-img' mode="aspectFill" src="{{img}}"></image>
+      </view>
+      <text class="menus-text{{id}}">{{text}}</text>
+    </view>
+  </view>
+</template>

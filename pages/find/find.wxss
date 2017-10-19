@@ -1,0 +1,58 @@
+.find {
+  display: flex;
+  flex-direction: column;
+}
+.menus{
+  margin-top: 20rpx;
+}
+.swiperbox{
+  width: 100%;
+}
+.slide-image{
+  display: block;
+  width: 100%;
+}
+.menus-img{
+  width: 90%;
+  height: 230rpx;
+  margin: 20rpx 0;
+  padding: 0 30rpx;
+}
+.menus-boxs{
+  position: relative;
+  margin: 40rpx 0;
+  background: #fff;
+}
+.menus-text0{
+  position: absolute;
+  right: 0;
+  top: -15rpx;
+  color: #fff;
+  height: 110%;
+  width: 45%;
+  line-height: 260rpx;
+  text-align: center;
+  background: rgba(148,0,211, 0.7)
+}
+.menus-text1{
+  position: absolute;
+  left: 0;
+  top: -15rpx;
+  color: #fff;
+  height: 110%;
+  width: 45%;
+  line-height: 260rpx;
+  text-align: center;
+  background: rgba(152,251,152, 0.8)
+}
+.menus-text2{
+  position: absolute;
+  right: 0;
+  top: -15rpx;
+  color: #fff;
+  height: 110%;
+  width: 45%;
+  line-height: 260rpx;
+  text-align: center;
+  background: rgba(30,144,255, 0.7)
+}

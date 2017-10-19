@@ -1,0 +1,8 @@
+/* pages/index/itinerary/itinerary.wxss */
+/* 单个图片容器的样式 */
+.img_item {
+  width: 48%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+}

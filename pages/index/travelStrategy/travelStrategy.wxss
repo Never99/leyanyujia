@@ -1,0 +1,55 @@
+/* pages/index/travelStrategy/travelStrategy.wxss */
+
+.travelStrategy-head {
+  border-bottom: 5rpx solid blue;
+  font-size: 26rpx;
+  margin: 15rpx 0 0 30%;
+}
+
+.travelStrategy-img {
+  display: block;
+  width: 96%;
+  height: 400rpx;
+  margin: 15rpx 2%;
+  border-radius: 20rpx;
+}
+
+.travelStrategy-poetry {
+  width: 70%;
+  margin: 0 auto;
+  border: 2rpx solid #000;
+}
+
+.poetry {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: red;
+  font-size: 26rpx;
+  line-height: 45rpx;
+}
+
+.travelStrategy-text {
+  position: relative;
+  margin-bottom: 15rpx;
+}
+
+.travelStrategy-text::before {
+  position: absolute;
+  right: 47.5%;
+  top: 0;
+  content: "";
+  border: 20rpx solid transparent;
+  border-top-color: orangered;
+}
+
+.text {
+  display: block;
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 26rpx;
+  line-height: 45rpx;
+}
+.text:nth-child(1){
+  padding-top: 25rpx;
+}
