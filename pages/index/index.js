@@ -77,7 +77,7 @@ Page({
   },
   onShareAppMessage: function () {
     return {
-      title: '微信小程序联盟',
+      title: '微信小程序开发联盟',
       desc: '最具人气的小程序开发联盟!',
       path: '/page/user?id=123'
     }
