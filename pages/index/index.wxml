@@ -18,7 +18,7 @@
       </view>
     </block>
   </view>
-  <text class='hotTitle'>蓬莱旅游热门搜索</text>
+  <text class='hotTitle'>蓬莱旅游热门景点搜索</text>
   <view class='imgs'>
     <block wx:for="{{hotMenus}}" wx:key="*this">
       <view class="one" catchtap="onDetalTap" data-detailId="{{item.id}}"> 
